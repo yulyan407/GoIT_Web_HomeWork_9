@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-web-homework-9"
+version = "0.1.0"
+description = ""
+authors = ["Yuliia Didenko <yu_lyan@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.0"
+selenium = "^4.16.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
